@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&family=Koulen&family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+        .navbar {
+          display: flex;
+          justify-content: center;
+          background-color: #44CD7B;
+         border-bottom-left-radius: 50px;
+         border-bottom-right-radius: 50px;
+         height: 100px;
+         overflow: hidden;
+        }
+        #judul{
+         margin-top: 0px;
+          color: rgb(255, 255, 255);
+          border-radius: 25px;
+          }
+        
+
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Koulen', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2F5233;
+}
+
+.kotak {
+    display: flex;
+    justify-content: center;
+    background-color:#B1D8B7;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left:  5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px #000000;
+    border-radius:70px;
+    outline-width: 5px;
+    outline-color: rgb(101, 93, 93);
+    color: white;
+    margin: 5%;
+    overflow: hidden;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 65px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: white;
+  color: black;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-weight: 600;
+  font-size: 18px;
+  float: left;
+  margin-top: 75px;
+  text-align: center;
+}
+
+.label-dollar{
+  width: 30px;
+  height: 65px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: white;
+  color: black;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-weight: 600;
+  font-size: 18px;
+  float: left;
+  margin-top: 75px;
+  margin-right: -50px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+}
+
+  h2 {
+    color: rgb(215, 226, 226);
+    text-align: center;
+    padding-top: 30px;
+    /* font-weight: 900; */
+}
+
+input {
+
+    width: 170px;
+    height: 65px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding-right: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    border-style: none;
+    text-indent: 0;
+}
+
+.input .rupiah {
+    margin-top: 75px;
+    margin-right: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input .dollar {
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.input svg {
+    width: 90px;
+}
+
+#matauang {
+    font-weight: bolder;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+}
+
+.footer {
+background-color: #44CD7B;
+ border-top-left-radius: 50px;
+ border-top-right-radius: 50px;
+  margin-bottom: 0px;
+ height: 100px;
+ overflow: hidden;
+}
