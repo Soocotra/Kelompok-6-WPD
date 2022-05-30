@@ -6,12 +6,12 @@ usd.addEventListener("input", function(ev){
     const value = ev.currentTarget.value;
     console.log(value);
     const valueUsd = value * kurs;
-    idr.value = valueUsd;
+    idr.value = valueUsd.toFixed(3);
 });
 
 idr.addEventListener("input", function(ev){
     const value = ev.currentTarget.value;
     console.log(value);
     const valueIdr = value / kurs;
-    usd.value = valueIdr;
+    usd.value = valueIdr.toFixed(3);
 });
