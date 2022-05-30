@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&family=Koulen&family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Koulen', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: #202124;
+}
+
+/* .kotak {
+    background-color: #787A80;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    backdrop-filter: blur(16px) saturate(180%);
+} */
+
+h2 {
+    color: rgb(215, 226, 226);
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: -20px;
+    padding-top: 20px;
+    /* font-weight: 900; */
+}
+
+input {
+    padding-right: 40px;
+    width: 170px;
+    height: 65px;
+    border-radius: 100px;
+    padding-left: 40px;
+    font-weight: 900;
+    font-size: 18px;
+    border-style: none;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.input .rupiah {
+    margin-top: 75px;
+    margin-right: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input .dollar {
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.input svg {
+    width: 90px;
+}
+
+::placeholder {
+    /* padding-left: 40px; */
+    font-weight: 900;
+    font-size: 18px;
+    color: #202124;
+}
